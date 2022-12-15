@@ -7,4 +7,6 @@ import com.mmtrios.springdemo.entity.Customer;
 public interface CustomerService {
 	
 	public List<Customer> getCustomer();
+
+	public void saveCustomer(Customer myCustomer);
 }
